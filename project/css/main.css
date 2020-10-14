@@ -1,0 +1,126 @@
+body{
+    background-color:  rgb(255, 255, 255);
+}
+.onepage{
+    width: 85%;
+    /* height: 800px; */
+    background: white;
+    margin: 0 auto;
+}
+/* .row>div{
+    border: 1px solid red;
+} */
+.header{
+    height: 50px;
+    margin-top: 8px;
+}
+.logo{
+    height: 40px;
+    width: 200px;
+    background: violet;
+    float: left;
+    margin-top: 5px;
+}
+.menu{
+    float:right;
+
+}
+/* 导航样式 */
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content:flex-end;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 5px;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+/*  */
+.courseInfo{
+    font-size: 28px;
+    line-height: 1;
+    text-align: left;
+    color: #2E4446;
+    margin: 18px 0px;
+}
+.underLine{
+    width: 100px;
+    height: 5px;
+    border-bottom:4px solid rgb(58, 151, 250);
+    border-radius: 20px;
+}
+/*  */
+.basicInfo{
+    height: 425px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    border-radius: 16px;
+    border:1px solid rgb(58, 151, 250);
+    border-radius: 20px;
+}
+.echart1{
+    height:360px;
+    width:360px;
+    text-align: center;
+    margin: 0 auto;
+}
+.pieT1{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.79;
+    color: #2e3131;
+    margin-top: 6px;
+}
+.echart2{
+    height:360px;
+    width:360px;
+    text-align: center;
+    margin: 0 auto;
+}
+.pieT2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.79;
+    color: #2e3131;
+    margin-top: 6px;
+}
+.sel1{
+    display: flex;
+}
+.sst{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.79;
+    color: #2e3131;
+    margin-top: 6px;
+}
+.ss{
+    height: 30px;
+    margin:8px;
+}
+.white{
+    width: 60px;
+}
+.tableInfo{
+    height: 845px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    border-radius: 16px;
+    border:1px solid rgb(58, 151, 250);
+    border-radius: 20px;
+}
+.footer{
+    height: 50px;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
