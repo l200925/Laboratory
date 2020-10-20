@@ -54,6 +54,7 @@ body{
     width: 100%;
 
     border-right: 2px solid aquamarine;
+    border-bottom: 2px solid aquamarine;
 }
 .echart2{
     height:360px;
@@ -62,11 +63,12 @@ body{
     margin: 0 auto;
 }
 .pieT2{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 1.79;
     color: #2e3131;
-    margin-top: 6px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .twoP{
     height: 425px;
@@ -74,7 +76,26 @@ body{
     border-right: 2px solid aquamarine;
 
 }
+#pie2{
+    margin-left: 20px;
+}
 /*  */
+.intr>h4{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.79;
+    text-align: center;
+    color: #2e3131;
+
+}
+.intr>p{
+    text-align: left;
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.79;
+    color: #be2323;
+}
 .threeP{
     height: 65px;
     width: 100%;
