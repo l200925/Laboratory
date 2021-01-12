@@ -1,63 +1,220 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lyh</title>
-    <style>
-        li{ font-size:2.5ex;}    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>实验一</title>
+    <style type="text/css">
+		html,body{
+			    width:100%;
+			    height:100%
+		}
+		body{
+		  font-family: "KaiTi";
+		  background:#9bd6af;
+		}
+		body,div{
+			margin:0px;
+			padding:0px;
+
+		}
+		img{
+			margin:14px;
+			padding:2px;
+		}
+
+		#containerDiv{
+			margin:0 auto;
+			width:1400px;
+			height:950px;
+			background-color:#669b78;
+
+		}
+		/* #bannerDiv{
+			width:100%;
+			height:200px;
+			background-color:#669b78;
+			background:url(imgs/green04.jpg) no-repeat;
+			background-position: top;
+			margin-top:2px;
+			display:inline-block;
+			background-size: 100%;
+		} */
+		#navigationDiv{
+			width:100%;
+			height:50px;
+			background-color:#669b78;
+			display:inline-block;
+		}		
+		ul#nav{  
+			font-family:KaiTi;
+			height:50px; 
+			background:#669b78;
+			margin:0 auto;
+			} 
+		ul#nav li{
+			display:inline; 
+			height:50px
+			} 
+		ul#nav li a{
+			display:inline-block; 
+			padding:0 20px; 
+			height:50px; 
+			line-height:50px;
+			color:#ffffff; 
+			font-family:KaiTi; 
+			font-size:16px
+			} 
+		ul#nav li a:hover{background:#a7e0cb}	
+		#contentDiv{
+			width:100%;
+			height:950px;
+			background-color:#669b78f;
+			padding-top:2px 0px;
+		}
+		#footerDiv{
+			width:100%;
+			height:60px;
+			color: #ffffff;
+			background-color:#457967;
+			background-image: url(webp.webp);
+			background-position:bottom;
+			/* margin-top:1px; */
+			display:inline-block;
+		}
+		#content1{
+			width:420px;
+			height:98%;
+			background-color:#2e2f33;
+			background-image: url(imgs/green04.jpg);
+			background-position:left;
+			background-repeat: no-repeat;
+			float:left;
+			margin-top:3px;
+			margin-right:6px;
+		}
+
+		#content2{
+			width:969px;
+			height:98%;
+			background-color:#ffffff;
+			background-image: url(imgs/green04.jpg);
+			background-size: cover;
+			background-position:left center;
+			background-repeat: no-repeat;
+			float:left;
+			margin-top:3px;
+			margin-left:1px;
+		}
+		.cons{
+			text-align:center;
+			color: #FFFFFF;
+			font-family:KaiTi;
+			font-size:20px;
+			line-height:2em; 
+			margin-top:50px;
+		}
+		div.content {
+			font-family:KaiTi;
+			color: #000000;
+			text-align:left;
+			font-size:18px;
+			/* line-height:2em;  */
+			margin-left: 20px;
+			border-left: 0px ;
+		}
+		.clearBoth{
+			clear:both;
+		}
     </style>
-</head>
-<body>
-    <h1>计算机图形学实验</h1>
-    <hr/>
-    <ul>
-        <li><a href="domes/p201812213501034.png">实验0</a></li>
-        <br/>
-        <li>实验1</li>
-        <ul>
-            <li><a href="domes/task1.1.html">task1</a></li>
-            <li><a href="domes/task1.2.html">task2</a></li>
-            <li><a href="domes/task1.3.html">task3</a></li>
-            <li><a href="domes/task1.4.html">task4</a></li>
-            <li><a href="domes/task1.5.html">task5</a></li>
-        </ul>
-        <br/>
-        <li>实验2</li>
-        <ul>
-            <li><a href="domes/task2.1.html">task1</a></li>
-            <li><a href="domes/task2.2.html">task2</a></li>
-            <li><a href="domes/task2.3.html">task3</a></li>
-            <li><a href="domes/task2.4.html">task4</a></li>
-            <li><a href="domes/task2.5.html">task5</a></li>
-        </ul>
-        <br/>
-        <li>实验3</li>
-        <ul>
-            <li><a href="domes/task3.1.html">task1</a></li>
-            <li><a href="domes/task3.2.html">task2</a></li>
-        </ul>
-        <br/>
-        <li>实验4</li>
-        <ul>
-            <li><a href="domes/task4.1.html">task1</a></li>
-            <li><a href="domes/task4.2.html">task2</a></li>
-            <li><a href="domes/task4.3.html">task3</a></li>
-            <li><a href="domes/task4.4.html">task4</a></li>
-            <li><a href="domes/task4.5.html">task5</a></li>
-        </ul>
-        <br/>
-        <li>实验5</li>
-        <ul>
-            <li><a href="domes/task5.1.html">task1</a></li>
-        </ul>
-        <br/>
-        <li>实验6</li>
-        <br/>
-        <li>实验7</li>
-        <br/>
-        <li>实验8</li>
-        <hr/>
-    </ul>
-</body>
+  </head>
+  <body>  
+	  <div id="containerDiv">
+		<div id="navigationDiv">
+		  		<ul id="nav">
+		  			<li><a href="domes/test.html">课程设计</a></li> 
+		  		</ul> 	
+		  </div>
+      	<!-- <div id="bannerDiv"></div> -->
+        <div class="clearBoth"></div><!-- 清除前面浮动对后面的影响-->
+        <div id="contentDiv">
+        	<div id="content1">	
+			<img src="imgs/portrait.jpg" width="400px" align="center" height="30%">
+			<div class="cons">
+			<p>姓名:LYH </p>
+			<p>年龄:保密</p>
+			<p>民族:汉</p>
+			<p>专业:保密</p>
+			<p>学校:保密</p>
+			<p>微博:<a href="https://www.weibo.com/">微博</a></p>
+			</div>
+			</div>
+            <div id="content2">
+				<div class="content">
+					<h2>计算机图形学实验</h2>
+					<hr/>
+					<ul>
+						<li><a href="domes/p201812213501034.png">实验0</a></li>
+						<br/>
+						<li>实验1</li>
+						<ul>
+							<li><a href="domes/task1.1.html">task1</a></li>
+							<li><a href="domes/task1.2.html">task2</a></li>
+							<li><a href="domes/task1.3.html">task3</a></li>
+							<li><a href="domes/task1.4.html">task4</a></li>
+							<li><a href="domes/task1.5.html">task5</a></li>
+						</ul>
+						<br/>
+						<li>实验2</li>
+						<ul>
+							<li><a href="domes/task2.1.html">task1</a></li>
+							<li><a href="domes/task2.2.html">task2</a></li>
+							<li><a href="domes/task2.3.html">task3</a></li>
+							<li><a href="domes/task2.4.html">task4</a></li>
+							<li><a href="domes/task2.5.html">task5</a></li>
+						</ul>
+						<br/>
+						<li>实验3</li>
+						<ul>
+							<li><a href="domes/task3.1.html">task1</a></li>
+							<li><a href="domes/task3.2.html">task2</a></li>
+						</ul>
+						<br/>
+						<li>实验4</li>
+						<ul>
+							<li><a href="domes/task4.1.html">task1</a></li>
+							<li><a href="domes/task4.2.html">task2</a></li>
+							<li><a href="domes/task4.3.html">task3</a></li>
+							<li><a href="domes/task4.4.html">task4</a></li>
+							<li><a href="domes/task4.5.html">task5</a></li>
+						</ul>
+						<br/>
+						<li>实验5</li>
+						<ul>
+							<li><a href="domes/task5.1.html">task1</a></li>
+						</ul>
+						<br/>
+						<li>实验6</li>
+						<ul>
+							<li><a href="domes/task6.1.html">task1</a></li>
+							<li><a href="domes/task6.2.html">task2</a></li>
+							<li><a href="domes/task6.2.html">task2</a></li>
+						</ul>
+						<br/>
+						<li>实验7</li>
+						<ul>
+							<li><a href="domes/task7.1.html">task1</a></li>
+							<li><a href="domes/task7.2.html">task2</a></li>
+						</ul>
+						<br/>
+						<hr/>
+					</ul>
+				</div>
+			</div>
+        </div>
+        <div class="clearBoth"></div><!-- 清除前面浮动对后面的影响-->
+        <div id="footerDiv">
+			<p align="center">-This is a self introduction-</p>
+		</div>
+      </div>
+  </body>
 </html>

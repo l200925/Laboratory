@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>test</title>        
+    <link href="../css/index.css" rel="stylesheet" type="text/css" />
+    <script src="../js/webgl-utils.js"></script>
+    <script src="../js/webgl-debug.js"></script>
+    <script src="../js/cuon-utils.js"></script>
+    <script src="../js/cuon-matrix.js"></script>
+    <script src="../js/test1.js"></script>
+  </head>
+
+  <body onload="main()">
+    <div class="containerDiv">
+      <div id="cans">
+      <canvas id="webgl" width="800" height="500"></canvas>
+    </div>
+      <br>
+      <div id="txt">
+        <lable>YOU CAN TRY  ↑  ↓  ←  →</lable>
+        <br/>
+        <label>平移</label><br/>
+        <button id="xtbutton">T X</button>
+        <button id="ytbutton">T Y</button>
+        <button id="ztbutton">T Z</button>
+        <br/>
+        <label>缩放</label><br/>
+          X:<input type="range" id="xs" min="0.1" max="4.0" step="0.1" onchange="x_suofang()" /><br />
+          Y:<input type="range" id="ys" min="0.1" max="4.0" step="0.1" onchange="y_suofang()" /><br />
+          Z:<input type="range" id="zs" min="0.1" max="4.0" step="0.1" onchange="z_suofang()" />  
+      </div>
+  </div>
+  </body>
+</html>
