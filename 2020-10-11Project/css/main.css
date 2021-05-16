@@ -1,3 +1,6 @@
+/* 
+    2020-lyh
+ */
 body{
     background-color:  rgb(255, 255, 255);
 }
@@ -80,21 +83,25 @@ body{
     margin-left: 20px;
 }
 /*  */
-.intr>h4{
-    font-size: 22px;
+.twoh3{
     font-weight: 500;
     line-height: 1.79;
     text-align: center;
     color: #2e3131;
 
 }
-.intr>p{
+.intr{
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.intr>h3{
+    font-size: 19px;
     text-align: left;
-    margin-left: 60px;
-    font-size: 16px;
+    margin-left: 15px;
     font-weight: 500;
     line-height: 1.79;
-    color: #be2323;
 }
 .threeP{
     height: 65px;
